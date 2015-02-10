@@ -1,0 +1,53 @@
+PackratFormat: 1.4
+PackratVersion: 0.4.1.8
+RVersion: 3.1.2
+Repos: CRAN=http://cran.rstudio.com,
+    CRANextra=http://www.stats.ox.ac.uk/pub/RWin
+
+Package: R6
+Source: CRAN
+Version: 2.0.1
+
+Package: RJSONIO
+Source: CRAN
+Version: 1.3-0
+
+Package: Rcpp
+Source: CRAN
+Version: 0.11.4
+
+Package: digest
+Source: CRAN
+Version: 0.6.8
+
+Package: htmltools
+Source: CRAN
+Version: 0.2.6
+Requires: digest
+
+Package: httpuv
+Source: CRAN
+Version: 1.3.2
+Requires: Rcpp
+
+Package: mime
+Source: CRAN
+Version: 0.2
+
+Package: packrat
+Source: github
+Version: 0.4.1.8
+GithubRepo: packrat
+GithubUsername: rstudio
+GithubRef: v0.98.1000
+GithubSha1: ee57b7e7ba891d23079b12f1ff5106d0db0594e5
+Hash: ee57b7e7ba891d23079b12f1ff5106d0db0594e5
+
+Package: shiny
+Source: CRAN
+Version: 0.11
+Requires: R6, RJSONIO, digest, htmltools, httpuv, mime, xtable
+
+Package: xtable
+Source: CRAN
+Version: 1.7-4
